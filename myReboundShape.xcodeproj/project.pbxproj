@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1011BB363824EF66B9F4CA0C /* Pods_myReboundShape.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB547B49D28342E0C5CBEE4E /* Pods_myReboundShape.framework */; };
+		8D1976DE25F15D5800B0B6A8 /* TodaysSpecialAndTriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1976DD25F15D5800B0B6A8 /* TodaysSpecialAndTriviaViewController.swift */; };
+		8D19770225F192E900B0B6A8 /* SpecialMealStored.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D19770125F192E900B0B6A8 /* SpecialMealStored.swift */; };
+		8D2B0FD925BF6DF20051B69B /* WeightTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2B0FD825BF6DF20051B69B /* WeightTrackerViewController.swift */; };
+		8D2B0FDC25BF7D5F0051B69B /* CalculateBMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2B0FDB25BF7D5F0051B69B /* CalculateBMIViewController.swift */; };
+		8D2B0FDF25BF81B40051B69B /* UpdateCurrentWeightTargetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2B0FDE25BF81B40051B69B /* UpdateCurrentWeightTargetViewController.swift */; };
+		8D3825E025BA126300A43F8C /* SetMealTimesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3825DF25BA126300A43F8C /* SetMealTimesViewController.swift */; };
+		8D3F0BF625BFC6DF008D2D32 /* WeeklyMealRoutineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F0BF525BFC6DF008D2D32 /* WeeklyMealRoutineViewController.swift */; };
+		8D42497B25BA1B0F00FA30F7 /* InitialSetTargetWeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D42497A25BA1B0F00FA30F7 /* InitialSetTargetWeightViewController.swift */; };
+		8D57DA6D25D3426F000E76B6 /* CalculateCustomBMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D57DA6C25D3426F000E76B6 /* CalculateCustomBMIViewController.swift */; };
+		8D57DA7325D36770000E76B6 /* UpdateCurrentWeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D57DA7225D36770000E76B6 /* UpdateCurrentWeightViewController.swift */; };
+		8D5E833625E56BB400FE7DA4 /* CalorieResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E833525E56BB400FE7DA4 /* CalorieResultsViewController.swift */; };
+		8D5E833925E56C4200FE7DA4 /* CalorieCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E833825E56C4200FE7DA4 /* CalorieCalculator.swift */; };
+		8D5F6485264C4A1700D20099 /* FoodRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5F6484264C4A1700D20099 /* FoodRecognitionViewController.swift */; };
+		8D5F6487264C725300D20099 /* FoodObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5F6486264C725300D20099 /* FoodObject.swift */; };
+		8D6C7509264E064700741C0F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D6C7508264E064700741C0F /* GoogleService-Info.plist */; };
+		8D6C750B264E0D4200741C0F /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6C750A264E0D4100741C0F /* LoginPageViewController.swift */; };
+		8D6C750D264E0E1000741C0F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6C750C264E0E1000741C0F /* SignUpViewController.swift */; };
+		8D7561D125B693B200F6FC5E /* WGPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7561D025B693B200F6FC5E /* WGPViewController.swift */; };
+		8D7C7C7D25EE6A03002613CB /* WeightHistoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C7C7C25EE6A03002613CB /* WeightHistoryData.swift */; };
+		8D7C8FBF25F5ACB300FE1454 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C8FBE25F5ACB300FE1454 /* ContainerViewController.swift */; };
+		8D9CAF8325F2A573005324AE /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9CAF8225F2A573005324AE /* Strings.swift */; };
+		8DAA35DD25DEADD5009B1433 /* keyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA35DC25DEADD5009B1433 /* keyboardManager.swift */; };
+		8DAA35E425DEB373009B1433 /* InitialWeightAndHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA35E325DEB373009B1433 /* InitialWeightAndHeight.swift */; };
+		8DAA35E725DEBD39009B1433 /* SetTargetWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA35E625DEBD39009B1433 /* SetTargetWeight.swift */; };
+		8DAA35EB25DED965009B1433 /* WLPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA35EA25DED964009B1433 /* WLPViewController.swift */; };
+		8DADBFDB25E2B6380063A90B /* Weekly JSON model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DADBFDA25E2B6380063A90B /* Weekly JSON model.swift */; };
+		8DADBFDF25E2B6610063A90B /* Weekly Meal Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DADBFDE25E2B6610063A90B /* Weekly Meal Generator.swift */; };
+		8DAE37D525B5F8E50051398E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAE37D425B5F8E50051398E /* AppDelegate.swift */; };
+		8DAE37D725B5F8E50051398E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAE37D625B5F8E50051398E /* SceneDelegate.swift */; };
+		8DAE37D925B5F8E50051398E /* StartStageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAE37D825B5F8E50051398E /* StartStageViewController.swift */; };
+		8DAE37DC25B5F8E50051398E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAE37DA25B5F8E50051398E /* Main.storyboard */; };
+		8DAE37DF25B5F8E50051398E /* myReboundShape.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DAE37DD25B5F8E50051398E /* myReboundShape.xcdatamodeld */; };
+		8DAE37E125B5F8E80051398E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DAE37E025B5F8E80051398E /* Assets.xcassets */; };
+		8DAE37E425B5F8E80051398E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAE37E225B5F8E80051398E /* LaunchScreen.storyboard */; };
+		8DC0AB7F25C0AB670094D65D /* RequiredCalorieCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0AB7E25C0AB670094D65D /* RequiredCalorieCalculatorViewController.swift */; };
+		8DC525762654A5B50041A4DA /* Food101.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8DC525752654A5B50041A4DA /* Food101.mlmodel */; };
+		8DCCCB10263256C30060B93B /* ProgressViewUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCCCB0F263256C30060B93B /* ProgressViewUIView.swift */; };
+		8DD298BD25EDC18900D0D30E /* WeightHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD298BC25EDC18900D0D30E /* WeightHistoryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50778D654310A26D909A7A5F /* Pods-myReboundShape.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myReboundShape.debug.xcconfig"; path = "Target Support Files/Pods-myReboundShape/Pods-myReboundShape.debug.xcconfig"; sourceTree = "<group>"; };
+		8D1976DD25F15D5800B0B6A8 /* TodaysSpecialAndTriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysSpecialAndTriviaViewController.swift; sourceTree = "<group>"; };
+		8D19770125F192E900B0B6A8 /* SpecialMealStored.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialMealStored.swift; sourceTree = "<group>"; };
+		8D2B0FD825BF6DF20051B69B /* WeightTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTrackerViewController.swift; sourceTree = "<group>"; };
+		8D2B0FDB25BF7D5F0051B69B /* CalculateBMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateBMIViewController.swift; sourceTree = "<group>"; };
+		8D2B0FDE25BF81B40051B69B /* UpdateCurrentWeightTargetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCurrentWeightTargetViewController.swift; sourceTree = "<group>"; };
+		8D3825DF25BA126300A43F8C /* SetMealTimesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetMealTimesViewController.swift; sourceTree = "<group>"; };
+		8D3F0BF525BFC6DF008D2D32 /* WeeklyMealRoutineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyMealRoutineViewController.swift; sourceTree = "<group>"; };
+		8D42497A25BA1B0F00FA30F7 /* InitialSetTargetWeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSetTargetWeightViewController.swift; sourceTree = "<group>"; };
+		8D57DA6C25D3426F000E76B6 /* CalculateCustomBMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateCustomBMIViewController.swift; sourceTree = "<group>"; };
+		8D57DA7225D36770000E76B6 /* UpdateCurrentWeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCurrentWeightViewController.swift; sourceTree = "<group>"; };
+		8D5E833525E56BB400FE7DA4 /* CalorieResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieResultsViewController.swift; sourceTree = "<group>"; };
+		8D5E833825E56C4200FE7DA4 /* CalorieCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieCalculator.swift; sourceTree = "<group>"; };
+		8D5F6484264C4A1700D20099 /* FoodRecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecognitionViewController.swift; sourceTree = "<group>"; };
+		8D5F6486264C725300D20099 /* FoodObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodObject.swift; sourceTree = "<group>"; };
+		8D6C7508264E064700741C0F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8D6C750A264E0D4100741C0F /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		8D6C750C264E0E1000741C0F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8D7561D025B693B200F6FC5E /* WGPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGPViewController.swift; sourceTree = "<group>"; };
+		8D7C7C7C25EE6A03002613CB /* WeightHistoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightHistoryData.swift; sourceTree = "<group>"; };
+		8D7C8FBE25F5ACB300FE1454 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		8D9CAF8225F2A573005324AE /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		8DAA35DA25DEA993009B1433 /* Test Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Test Playground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8DAA35DC25DEADD5009B1433 /* keyboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyboardManager.swift; sourceTree = "<group>"; };
+		8DAA35E325DEB373009B1433 /* InitialWeightAndHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialWeightAndHeight.swift; sourceTree = "<group>"; };
+		8DAA35E625DEBD39009B1433 /* SetTargetWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetTargetWeight.swift; sourceTree = "<group>"; };
+		8DAA35EA25DED964009B1433 /* WLPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLPViewController.swift; sourceTree = "<group>"; };
+		8DADBFDA25E2B6380063A90B /* Weekly JSON model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Weekly JSON model.swift"; sourceTree = "<group>"; };
+		8DADBFDE25E2B6610063A90B /* Weekly Meal Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Weekly Meal Generator.swift"; sourceTree = "<group>"; };
+		8DAE37D125B5F8E50051398E /* myReboundShape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myReboundShape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DAE37D425B5F8E50051398E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DAE37D625B5F8E50051398E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8DAE37D825B5F8E50051398E /* StartStageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartStageViewController.swift; sourceTree = "<group>"; };
+		8DAE37DB25B5F8E50051398E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DAE37DE25B5F8E50051398E /* myReboundShape.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myReboundShape.xcdatamodel; sourceTree = "<group>"; };
+		8DAE37E025B5F8E80051398E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DAE37E325B5F8E80051398E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DAE37E525B5F8E80051398E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC0AB7E25C0AB670094D65D /* RequiredCalorieCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequiredCalorieCalculatorViewController.swift; sourceTree = "<group>"; };
+		8DC525752654A5B50041A4DA /* Food101.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Food101.mlmodel; sourceTree = "<group>"; };
+		8DCCCB0F263256C30060B93B /* ProgressViewUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewUIView.swift; sourceTree = "<group>"; };
+		8DD298BC25EDC18900D0D30E /* WeightHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightHistoryViewController.swift; sourceTree = "<group>"; };
+		DB547B49D28342E0C5CBEE4E /* Pods_myReboundShape.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myReboundShape.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE085AF9B8C6AC470C4799B0 /* Pods-myReboundShape.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myReboundShape.release.xcconfig"; path = "Target Support Files/Pods-myReboundShape/Pods-myReboundShape.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DAE37CE25B5F8E50051398E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1011BB363824EF66B9F4CA0C /* Pods_myReboundShape.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41A2BB4DC125C57DA0935DE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50778D654310A26D909A7A5F /* Pods-myReboundShape.debug.xcconfig */,
+				FE085AF9B8C6AC470C4799B0 /* Pods-myReboundShape.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4E95A8D0EB646CE864A817D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB547B49D28342E0C5CBEE4E /* Pods_myReboundShape.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D7561C825B68C3300F6FC5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8DADBFD925E2B6160063A90B /* Weekly Meal Generator plan */,
+				8DAA35E325DEB373009B1433 /* InitialWeightAndHeight.swift */,
+				8DAA35E625DEBD39009B1433 /* SetTargetWeight.swift */,
+				8D5E833825E56C4200FE7DA4 /* CalorieCalculator.swift */,
+				8D7C7C7C25EE6A03002613CB /* WeightHistoryData.swift */,
+				8D19770125F192E900B0B6A8 /* SpecialMealStored.swift */,
+				8D9CAF8225F2A573005324AE /* Strings.swift */,
+				8D5F6486264C725300D20099 /* FoodObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D7561C925B68C3900F6FC5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA35DC25DEADD5009B1433 /* keyboardManager.swift */,
+				8DAE37DA25B5F8E50051398E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D7561CA25B68C3F00F6FC5E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8DAE37D825B5F8E50051398E /* StartStageViewController.swift */,
+				8D42497A25BA1B0F00FA30F7 /* InitialSetTargetWeightViewController.swift */,
+				8D7561D025B693B200F6FC5E /* WGPViewController.swift */,
+				8D3825DF25BA126300A43F8C /* SetMealTimesViewController.swift */,
+				8D2B0FD825BF6DF20051B69B /* WeightTrackerViewController.swift */,
+				8D2B0FDB25BF7D5F0051B69B /* CalculateBMIViewController.swift */,
+				8D2B0FDE25BF81B40051B69B /* UpdateCurrentWeightTargetViewController.swift */,
+				8D3F0BF525BFC6DF008D2D32 /* WeeklyMealRoutineViewController.swift */,
+				8DC0AB7E25C0AB670094D65D /* RequiredCalorieCalculatorViewController.swift */,
+				8D57DA6C25D3426F000E76B6 /* CalculateCustomBMIViewController.swift */,
+				8D57DA7225D36770000E76B6 /* UpdateCurrentWeightViewController.swift */,
+				8DAA35EA25DED964009B1433 /* WLPViewController.swift */,
+				8D5E833525E56BB400FE7DA4 /* CalorieResultsViewController.swift */,
+				8DD298BC25EDC18900D0D30E /* WeightHistoryViewController.swift */,
+				8D1976DD25F15D5800B0B6A8 /* TodaysSpecialAndTriviaViewController.swift */,
+				8D7C8FBE25F5ACB300FE1454 /* ContainerViewController.swift */,
+				8DCCCB0F263256C30060B93B /* ProgressViewUIView.swift */,
+				8D5F6484264C4A1700D20099 /* FoodRecognitionViewController.swift */,
+				8D6C750A264E0D4100741C0F /* LoginPageViewController.swift */,
+				8D6C750C264E0E1000741C0F /* SignUpViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8DAA35D925DEA97D009B1433 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA35DA25DEA993009B1433 /* Test Playground.playground */,
+			);
+			path = Playground;
+			sourceTree = "<group>";
+		};
+		8DADBFD925E2B6160063A90B /* Weekly Meal Generator plan */ = {
+			isa = PBXGroup;
+			children = (
+				8DADBFDA25E2B6380063A90B /* Weekly JSON model.swift */,
+				8DADBFDE25E2B6610063A90B /* Weekly Meal Generator.swift */,
+			);
+			path = "Weekly Meal Generator plan";
+			sourceTree = "<group>";
+		};
+		8DAE37C825B5F8E50051398E = {
+			isa = PBXGroup;
+			children = (
+				8DAE37D325B5F8E50051398E /* myReboundShape */,
+				8DAE37D225B5F8E50051398E /* Products */,
+				41A2BB4DC125C57DA0935DE3 /* Pods */,
+				4E95A8D0EB646CE864A817D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8DAE37D225B5F8E50051398E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DAE37D125B5F8E50051398E /* myReboundShape.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DAE37D325B5F8E50051398E /* myReboundShape */ = {
+			isa = PBXGroup;
+			children = (
+				8DC525752654A5B50041A4DA /* Food101.mlmodel */,
+				8D6C7508264E064700741C0F /* GoogleService-Info.plist */,
+				8DAA35D925DEA97D009B1433 /* Playground */,
+				8D7561CA25B68C3F00F6FC5E /* Controller */,
+				8D7561C925B68C3900F6FC5E /* View */,
+				8D7561C825B68C3300F6FC5E /* Model */,
+				8DAE37D425B5F8E50051398E /* AppDelegate.swift */,
+				8DAE37D625B5F8E50051398E /* SceneDelegate.swift */,
+				8DAE37E025B5F8E80051398E /* Assets.xcassets */,
+				8DAE37E225B5F8E80051398E /* LaunchScreen.storyboard */,
+				8DAE37E525B5F8E80051398E /* Info.plist */,
+				8DAE37DD25B5F8E50051398E /* myReboundShape.xcdatamodeld */,
+			);
+			path = myReboundShape;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DAE37D025B5F8E50051398E /* myReboundShape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DAE37E825B5F8E80051398E /* Build configuration list for PBXNativeTarget "myReboundShape" */;
+			buildPhases = (
+				24B72794E8524F90857AC668 /* [CP] Check Pods Manifest.lock */,
+				8DAE37CD25B5F8E50051398E /* Sources */,
+				8DAE37CE25B5F8E50051398E /* Frameworks */,
+				8DAE37CF25B5F8E50051398E /* Resources */,
+				F9C6D8F323EAC73C84B14124 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myReboundShape;
+			productName = myReboundShape;
+			productReference = 8DAE37D125B5F8E50051398E /* myReboundShape.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DAE37C925B5F8E50051398E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					8DAE37D025B5F8E50051398E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 8DAE37CC25B5F8E50051398E /* Build configuration list for PBXProject "myReboundShape" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DAE37C825B5F8E50051398E;
+			productRefGroup = 8DAE37D225B5F8E50051398E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DAE37D025B5F8E50051398E /* myReboundShape */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DAE37CF25B5F8E50051398E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DAE37E425B5F8E80051398E /* LaunchScreen.storyboard in Resources */,
+				8D6C7509264E064700741C0F /* GoogleService-Info.plist in Resources */,
+				8DAE37E125B5F8E80051398E /* Assets.xcassets in Resources */,
+				8DAE37DC25B5F8E50051398E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24B72794E8524F90857AC668 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myReboundShape-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9C6D8F323EAC73C84B14124 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myReboundShape/Pods-myReboundShape-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myReboundShape/Pods-myReboundShape-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myReboundShape/Pods-myReboundShape-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DAE37CD25B5F8E50051398E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6C750D264E0E1000741C0F /* SignUpViewController.swift in Sources */,
+				8D5F6485264C4A1700D20099 /* FoodRecognitionViewController.swift in Sources */,
+				8D19770225F192E900B0B6A8 /* SpecialMealStored.swift in Sources */,
+				8D3825E025BA126300A43F8C /* SetMealTimesViewController.swift in Sources */,
+				8D5F6487264C725300D20099 /* FoodObject.swift in Sources */,
+				8D7C8FBF25F5ACB300FE1454 /* ContainerViewController.swift in Sources */,
+				8D57DA6D25D3426F000E76B6 /* CalculateCustomBMIViewController.swift in Sources */,
+				8DC525762654A5B50041A4DA /* Food101.mlmodel in Sources */,
+				8DAE37D925B5F8E50051398E /* StartStageViewController.swift in Sources */,
+				8D5E833625E56BB400FE7DA4 /* CalorieResultsViewController.swift in Sources */,
+				8D57DA7325D36770000E76B6 /* UpdateCurrentWeightViewController.swift in Sources */,
+				8DAA35DD25DEADD5009B1433 /* keyboardManager.swift in Sources */,
+				8D7C7C7D25EE6A03002613CB /* WeightHistoryData.swift in Sources */,
+				8DADBFDF25E2B6610063A90B /* Weekly Meal Generator.swift in Sources */,
+				8DAA35E425DEB373009B1433 /* InitialWeightAndHeight.swift in Sources */,
+				8D6C750B264E0D4200741C0F /* LoginPageViewController.swift in Sources */,
+				8D3F0BF625BFC6DF008D2D32 /* WeeklyMealRoutineViewController.swift in Sources */,
+				8DAE37DF25B5F8E50051398E /* myReboundShape.xcdatamodeld in Sources */,
+				8DAE37D525B5F8E50051398E /* AppDelegate.swift in Sources */,
+				8DC0AB7F25C0AB670094D65D /* RequiredCalorieCalculatorViewController.swift in Sources */,
+				8DCCCB10263256C30060B93B /* ProgressViewUIView.swift in Sources */,
+				8DAA35E725DEBD39009B1433 /* SetTargetWeight.swift in Sources */,
+				8D7561D125B693B200F6FC5E /* WGPViewController.swift in Sources */,
+				8DAA35EB25DED965009B1433 /* WLPViewController.swift in Sources */,
+				8D2B0FD925BF6DF20051B69B /* WeightTrackerViewController.swift in Sources */,
+				8D42497B25BA1B0F00FA30F7 /* InitialSetTargetWeightViewController.swift in Sources */,
+				8D2B0FDF25BF81B40051B69B /* UpdateCurrentWeightTargetViewController.swift in Sources */,
+				8D9CAF8325F2A573005324AE /* Strings.swift in Sources */,
+				8D1976DE25F15D5800B0B6A8 /* TodaysSpecialAndTriviaViewController.swift in Sources */,
+				8DAE37D725B5F8E50051398E /* SceneDelegate.swift in Sources */,
+				8DADBFDB25E2B6380063A90B /* Weekly JSON model.swift in Sources */,
+				8D2B0FDC25BF7D5F0051B69B /* CalculateBMIViewController.swift in Sources */,
+				8D5E833925E56C4200FE7DA4 /* CalorieCalculator.swift in Sources */,
+				8DD298BD25EDC18900D0D30E /* WeightHistoryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8DAE37DA25B5F8E50051398E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DAE37DB25B5F8E50051398E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DAE37E225B5F8E80051398E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DAE37E325B5F8E80051398E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DAE37E625B5F8E80051398E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DAE37E725B5F8E80051398E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DAE37E925B5F8E80051398E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50778D654310A26D909A7A5F /* Pods-myReboundShape.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X7GQHA5P2;
+				INFOPLIST_FILE = myReboundShape/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanielGhebrat.myReboundShape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DAE37EA25B5F8E80051398E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE085AF9B8C6AC470C4799B0 /* Pods-myReboundShape.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X7GQHA5P2;
+				INFOPLIST_FILE = myReboundShape/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanielGhebrat.myReboundShape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DAE37CC25B5F8E50051398E /* Build configuration list for PBXProject "myReboundShape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DAE37E625B5F8E80051398E /* Debug */,
+				8DAE37E725B5F8E80051398E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DAE37E825B5F8E80051398E /* Build configuration list for PBXNativeTarget "myReboundShape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DAE37E925B5F8E80051398E /* Debug */,
+				8DAE37EA25B5F8E80051398E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8DAE37DD25B5F8E50051398E /* myReboundShape.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8DAE37DE25B5F8E50051398E /* myReboundShape.xcdatamodel */,
+			);
+			currentVersion = 8DAE37DE25B5F8E50051398E /* myReboundShape.xcdatamodel */;
+			path = myReboundShape.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8DAE37C925B5F8E50051398E /* Project object */;
+}
